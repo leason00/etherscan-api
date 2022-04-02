@@ -126,6 +126,7 @@ type ContractSource struct {
 	CompilerVersion      string `json:"CompilerVersion"`
 	OptimizationUsed     int    `json:"OptimizationUsed,string"`
 	Runs                 int    `json:"Runs,string"`
+	Proxy                int    `json:"Proxy,string"`
 	ConstructorArguments string `json:"ConstructorArguments"`
 	Library              string `json:"Library"`
 	SwarmSource          string `json:"SwarmSource"`
@@ -170,4 +171,3 @@ type Log struct {
 	LogIndex        string   `json:"logIndex"`
 	Removed         bool     `json:"removed"`
 }
-
